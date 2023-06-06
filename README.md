@@ -1,5 +1,7 @@
 # Contrib
 
+[![Falco Ecosystem Repository](https://github.com/falcosecurity/evolution/blob/main/repos/badges/falco-ecosystem-blue.svg)](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md#ecosystem-scope) [![Sandbox](https://img.shields.io/badge/status-sandbox-red?style=for-the-badge)](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md#sandbox)
+
 This repository serves as a place for the community to test-drive ideas/projects/code. 
 
 Resources within this repository are organized under various subfolders, for example:
@@ -10,4 +12,4 @@ Resources within this repository are organized under various subfolders, for exa
 
 When adding a new directory, propose your motivations to the [maintainers](OWNERS).
 
-All contributions under this repository get the "*Sandbox*" status as per [this proposal](https://github.com/falcosecurity/falco/blob/master/proposals/20200506-artifacts-scope-part-1.md#contrib).
+All contributions under this repository get the [*sandbox* status](https://github.com/falcosecurity/evolution/blob/main/REPOSITORIES.md#sandbox).
