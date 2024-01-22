@@ -60,7 +60,7 @@ def add_annotation_to_pod(pod_name, namespace, event_name):
 max_num_of_events = os.environ.get('MAXIMUM_NUMBER_OF_EVENTS', "5")
 annotation_key = os.environ.get('ANNOTATION_KEY', "phoenix.r6security.com/falcoevent")
 logging.basicConfig(level=logging.INFO)
-falco_client = falco.Client(endpoint="unix:///var/run/falco/falco.sock",
+falco_client = falco.Client(endpoint="unix:///run/falco/falco.sock",
                             client_crt="/tmp/client.crt",
                             client_key="/tmp/client.key",
                             ca_root="/tmp/ca.crt")

@@ -44,7 +44,7 @@ if __name__ == "__main__":
     log.addHandler(test)
 
     c = falco.Client(
-        endpoint="unix:///var/run/falco.sock",
+        endpoint="unix:///run/falco/falco.sock",
         output_format=args.output_format,
     )
 

@@ -18,7 +18,7 @@ Install falco. Configure it to output events over grpc unix socket.
 
 ```
 # # (as root)
-# chmod 777 /var/run/falco.sock 
+# chmod 777 /run/falco/falco.sock
 ```
 
 Get a LogDNA injestion api key.
